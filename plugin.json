@@ -1,0 +1,11 @@
+{
+  "pluginmetadataversion": 2,
+  "name": "Windows Error Code Resolver",
+  "type": ["ui", "helper"],
+  "api": ["python3"],
+  "description": "Resolve Windows error codes via the context menu",
+  "platforms": ["Windows"],
+  "version": "1.0.0",
+  "author": "Damarion Abendanon",
+  "minimumbinaryninjaversion": 5394
+}
