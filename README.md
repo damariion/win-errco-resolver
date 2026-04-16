@@ -11,7 +11,4 @@ The following example demonstrates the second option, in which the resolution is
 ![example](assets/example.png)
 <p align="center"><em>"Insert as Comment"</em></p>
 
-The resolution process makes use of the [FormatMessageW](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-formatmessagew) API, which means the plugin is small in size and can be used without an internet connection.
-
-> [!CAUTION]
-> Error code information is extracted from *your* system; this means that debugging PEs targeting other Windows builds may result in inaccurate resolutions.
+The resolution process makes use of the [FormatMessageW](https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-formatmessagew) API, which means the plugin is small in size and can be used without an internet connection. One drawback is that the error code information is extracted from *your* system; this means that debugging PEs targeting other Windows builds may result in inaccurate resolutions.
